@@ -77,7 +77,6 @@ export default function HomePage() {
             href="/shop"
             className="inline-block border px-8 py-3 text-xs tracking-widest uppercase transition-all duration-300 hover:text-white"
             style={{ borderColor: '#1E2A1A', color: '#1E2A1A' }}
-            onMouseEnter={e => (e.currentTarget.style.background = '#1E2A1A')}
           >
             View All Products
           </Link>
