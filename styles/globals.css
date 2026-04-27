@@ -5,22 +5,17 @@
 @tailwind utilities;
 
 :root {
-  --beige: #F1F4EE;
-  --cream: #F5F7F2;
-  --olive: #4A5240;
-  --brown: #4A5240;
-  --dark: #2C3328;
-  --light-olive: #D4DBD0;
-  --gold: #6B7A5C;
+  --beige: #E8EDE4;
+  --cream: #F2F5EF;
+  --olive: #3D4A35;
+  --brown: #3D4A35;
+  --dark: #1E2A1A;
+  --light-olive: #C5D0BE;
+  --gold: #7A9468;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 
 body {
   background-color: var(--beige);
@@ -38,20 +33,9 @@ h1, h2, h3, h4, h5, h6 {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.animate-fade-up {
-  animation: fadeUp 0.6s ease forwards;
-}
+.animate-fade-up { animation: fadeUp 0.6s ease forwards; }
 
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: var(--beige);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--light-olive);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--olive);
-}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--beige); }
+::-webkit-scrollbar-thumb { background: var(--light-olive); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--olive); }
