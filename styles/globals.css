@@ -5,13 +5,13 @@
 @tailwind utilities;
 
 :root {
-  --beige: #F5F1EB;
-  --cream: #FAF7F2;
-  --olive: #6B705C;
-  --brown: #8B5E3C;
-  --dark: #3E2C23;
-  --light-olive: #E8E6DF;
-  --gold: #C9A96E;
+  --beige: #F1F4EE;
+  --cream: #F5F7F2;
+  --olive: #4A5240;
+  --brown: #4A5240;
+  --dark: #2C3328;
+  --light-olive: #D4DBD0;
+  --gold: #6B7A5C;
 }
 
 * {
@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Cormorant Garamond', Georgia, serif;
 }
 
-/* Scroll animations */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
@@ -43,7 +42,6 @@ h1, h2, h3, h4, h5, h6 {
   animation: fadeUp 0.6s ease forwards;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
